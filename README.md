@@ -74,6 +74,7 @@ For eg - if ```“address”``` key has the value like this : ```{“street” :
 How we do that in implementation is we take a Breadth First Search (BFS) kind of approach. We first move to one level and compute the occurence fractions and only add those subsequent child paths in the queue if the parent occurence fraction is greater than threshold.
 
 Metaphorically speaking the Brute force represents Depth First Search (DFS) equivalence and the optimised one in terms of BFS.
+This repo contains only the code for the optimised approach.
 
 
 ## Further optimizations<a name="optimizations"></a>
